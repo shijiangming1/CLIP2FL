@@ -76,7 +76,7 @@ Here is an example to run CReFF on CIFAR-10 with imb_factor=0.01:
 ### Contact
 jiangming.shi@outlook.com; S_yinxb@163.com.
 
-The code is implemented based on CReFF.
+The code is implemented based on [CReFF](https://github.com/shangxinyi/CReFF-FL).
 
 
 
