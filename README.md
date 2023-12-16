@@ -6,7 +6,7 @@ This is an official implementation of the following paper:
 >
 > **CLIP-guided Federated Learning on Heterogeneous and Long-Tailed Data**
 >
-> *Association for Advance of Artificial Intelligence (AAAI), 2024* 
+> *AAAI Conference on Artificial Intelligence (AAAI), 2024* 
 ###  <font color="red"> The code will be available after the conference. </font>
 
 
