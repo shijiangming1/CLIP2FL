@@ -1,1 +1,1 @@
-1
+from Model.Resnet8 import ResLTResNet8
