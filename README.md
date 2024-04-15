@@ -20,7 +20,7 @@ This is an official implementation of the following paper:
 - torchvision 0.8.1
 - CUDA 11.2
 - cuDNN 8.0.4
-- clip 1.0
+- clip-by-openai 0.1
 
 
 
