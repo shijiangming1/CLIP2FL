@@ -52,7 +52,7 @@ def args_parser():
     parser.add_argument('--small_match_epoch', type=int, default=3)
     parser.add_argument('--small_crt_epoch', type=int, default=3)
     parser.add_argument('--ins_temp', type=float, default=0.1, help='temperature in instance-level supervision')
-    parser.add_argument('--contrast_alpha', default=0.5, type=float, help='the hypeparameter for server_clip_loss')
+    parser.add_argument('--contrast_alpha', default=0.001, type=float, help='the hypeparameter for server_clip_loss')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                         help='path to latest checkpoint (default: none)')
 
