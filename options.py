@@ -42,7 +42,7 @@ def args_parser():
     parser.add_argument('--beta', default=0.998, type=float)
     parser.add_argument('--result_save', type=str, default='results')
     parser.add_argument('--T', default=3.0, type=float, help='Input the temperature: default(3.0)')
-    parser.add_argument('--gpu', default=2, type=int,
+    parser.add_argument('--gpu', default=1, type=int,
                         help='GPU id to use.')
     parser.add_argument('--alpha', default=2, type=float, help='the hypeparameter for BKD2 loss')
     parser.add_argument('--center_alpha', default=0.0001, type=float, help='the hypeparameter for center alpha')
