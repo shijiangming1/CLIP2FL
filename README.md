@@ -67,7 +67,7 @@ Here is an example to run CReFF on CIFAR-10 with imb_factor=0.01:
 --num_classes=10 \
 --num_rounds=200 \
 --match_epoch=100 \
---contrast_alpha=0.1 \
+--contrast_alpha=0.001 \
 --imb_factor=0.01
 
 ```
