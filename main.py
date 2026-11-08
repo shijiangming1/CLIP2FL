@@ -117,7 +117,7 @@ class Logger(object):
                 self.log = open(self.logfile, "a")
                 self.log.write(message)
                 self.log.close()
-            except:
+            except (OSError, UnicodeEncodeError):
                 pass
 
     def flush(self):
